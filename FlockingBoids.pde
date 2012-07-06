@@ -1,11 +1,13 @@
 // Flocking boids -- Gene Kogan, March 2012
 //
-// A simulation of flocking based on Craig Reynolds' Boids program.
-// Press spacebar twice to toggle between first person and third person
-// mode (following a single boid).  Pressing different number keys will trigger
-// presets which move the camera around the scene in various ways. In first person 
-// mode (the default), you can fly the camera around the scene by dragging the mouse, 
-// and zoom using two-finger scroll.
+// A simulation of flocking based on Craig Reynolds' Boids program.  Press
+// spacebar twice to toggle between first person and third person mode
+// (following a single boid). In first person mode (the default), you can
+// fly the camera around the scene by click dragging the mouse, and zoom
+// using two-finger scroll. While in third person, pressing different number
+// keys will trigger presets which move the camera around the scene in various ways.
+//
+// If it's running slowly, try reduing the boid count (variable numBoids).
 //
 // DEPENDENCIES
 // To run this code, you must have GLGraphics, Toxiclibs, and Proscene libraries installed:
@@ -24,7 +26,7 @@ import toxi.geom.*;
 int boxWidth = 2400;
 int boxHeight = 2400;
 int boxDepth = 2400;
-int numBoids = 2200;
+int numBoids = 2000;          // <-- boid count
 boolean avoidWalls = true;
 
 GLGraphics renderer;
