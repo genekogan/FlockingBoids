@@ -2,6 +2,8 @@
 
 A fancy implementation in Processing of [Craig Reynolds' Boids program](http://www.red3d.com/cwr/boids/), simulating the flocking behavior of birds. Check the [video link](https://vimeo.com/39517129) to see what it looks like.
 
+Note: This is implemented in Processing 1.5. It won't work properly on Processing 2.0.  At some point I will get around to fixing this but for now use the old one to get it working.
+
 [![Boids on vimeo](https://secure-b.vimeocdn.com/ts/272/606/272606592_640.jpg "Boids")](https://vimeo.com/39517129)
 
 
